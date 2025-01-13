@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0-ios</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>true</ImplicitUsings>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>EasyToolTip.Mau.ios</PackageId>
+        <Title>EasyToolTip.Mau.ios</Title>
+        <Authors>Emil Alipiev</Authors>
+        <Description>EasyToolTip C# maui porting for iOS</Description>
+        <PackageProjectUrl>https://github.com/EmilAlipiev/EasyToolTip.Mau.ios</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/EmilAlipiev/EasyToolTip.Mau.ios/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/EmilAlipiev/EasyToolTip.Mau.ios</RepositoryUrl>
+        <PackageTags>maui ios xamarin </PackageTags>
+        <RootNamespace>EastyToolTipMauiIos</RootNamespace>
+        <PackageIcon>Tooltip.png</PackageIcon>
+    </PropertyGroup>
+</Project>

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0-ios</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>true</ImplicitUsings>
+        <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <CodesignKey>iPhone Developer</CodesignKey>
+    </PropertyGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\EasyToolTipMauIos\EasyToolTipMauIos.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Cirrious.FluentLayout" Version="3.0.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="obj\Debug\net8.0-ios\iossimulator-arm64\" />
+    </ItemGroup>
+</Project>
