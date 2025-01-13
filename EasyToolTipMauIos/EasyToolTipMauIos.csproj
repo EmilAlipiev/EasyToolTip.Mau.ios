@@ -15,4 +15,10 @@
         <RootNamespace>EastyToolTipMauiIos</RootNamespace>
         <PackageIcon>Tooltip.png</PackageIcon>
     </PropertyGroup>
+    <ItemGroup>
+      <None Update="Tooltip.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+    </ItemGroup>
 </Project>
