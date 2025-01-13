@@ -8,9 +8,9 @@ jobs:
   build:
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v2     
+    - uses: actions/checkout@v4.2.2     
     - name: Setup Nuget.exe
-      uses: NuGet/setup-nuget@v1.0.6
+      uses: NuGet/setup-nuget@v2.0.0
     - name: Restore Nuget
       run: nuget restore EasyToolTipMauIos/EasyToolTipMauIos.csproj
     - name: Setup MSBuild.exe
