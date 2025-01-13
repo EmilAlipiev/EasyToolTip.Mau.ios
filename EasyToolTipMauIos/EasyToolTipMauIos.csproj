@@ -2,23 +2,31 @@
     <PropertyGroup>
         <TargetFrameworks>net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
         <Nullable>enable</Nullable>
-        <ImplicitUsings>true</ImplicitUsings>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <ImplicitUsings>true</ImplicitUsings>       
         <PackageId>EasyToolTip.Mau.ios</PackageId>
         <Title>EasyToolTip.Mau.ios</Title>
         <Authors>Emil Alipiev</Authors>
         <Description>EasyToolTip C# maui porting for iOS</Description>
-        <PackageProjectUrl>https://github.com/EmilAlipiev/EasyToolTip.Mau.ios</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/EmilAlipiev/EasyToolTip.Mau.ios/LICENSE</PackageLicenseUrl>
+        <PackageProjectUrl>https://github.com/EmilAlipiev/EasyToolTip.Mau.ios</PackageProjectUrl>      
         <RepositoryUrl>https://github.com/EmilAlipiev/EasyToolTip.Mau.ios</RepositoryUrl>
-        <PackageTags>maui ios xamarin </PackageTags>
-        <RootNamespace>EastyToolTipMauiIos</RootNamespace>
-        <PackageIcon>Tooltip.png</PackageIcon>
+        <PackageTags>maui ios xamarin</PackageTags>
+        <RootNamespace>EastyToolTipMauiIos</RootNamespace> 
         <Version>1.0.1</Version>
+        <LangVersion>default</LangVersion>        
     </PropertyGroup>
     <ItemGroup>
       <None Update="Tooltip.png">
-        <Pack>True</Pack>      
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>
+    <PropertyGroup>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    </PropertyGroup>
+    <PropertyGroup>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
 </Project>
